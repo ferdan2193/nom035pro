@@ -25,6 +25,9 @@
                     <a class="nav-link click" href="#beneficios">Beneficios</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link click" href="#miempresa">Mi empresa</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link click" href="#contacto">Contacto</a>
                 </li>
             </ul>

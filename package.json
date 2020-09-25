@@ -1,0 +1,18 @@
+{
+  "name": "nom035pro",
+  "version": "1.0.0",
+  "description": "Paquete de SellIt",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch view/sass -o view/css --output-style compressed",
+    "jsmin": "uglifyjs-folder view/js -eo view/jsmin"
+  },
+  "author": "TuEmpresa.com.mx",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-uglify-es": "^3.3.0"
+  }
+}
