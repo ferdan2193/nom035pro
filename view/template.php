@@ -18,7 +18,11 @@
     <link rel="stylesheet" href="<?php echo URL;?>view/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo URL; ?>view/plugins/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="<?php echo URL; ?>view/plugins/lightslider/css/lightslider.min.css">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+    <link rel="stylesheet" href="<?php echo URL;?>view/css/template.css">
     <link rel="stylesheet" href="<?php echo URL;?>view/css/styles.css">
     <link rel="stylesheet" href="<?php echo URL;?>view/css/container.css">
     <link rel="stylesheet" href="<?php echo URL;?>view/css/fonts.css">
@@ -29,6 +33,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700|Source+Sans+Pro|Yanone+Kaffeesatz&display=swap"
         rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 
 
@@ -80,8 +85,10 @@ if(count($routes) > 0){
         <?php
         require_once "view/modules/common/footer.php";
         ?>
+        <script src="<?php echo URL;?>/view/js/politicas.js"></script>
 
         <script src="<?php echo URL;?>/view/plugins/jquery/jquery.js"></script>
+        
 
         <script src="<?php echo URL;?>/view/plugins/bootstrap/js/bootstrap.min.js"></script>
         <script>
@@ -164,7 +171,7 @@ if(count($routes) > 0){
                 data.append("mensaje", $("textarea[name='observation']").val());
 
                 $.ajax({
-                    url: ruta + "ajax/ajax.php";
+                    url: ruta + "ajax/ajax.php",
                     type: "POST",
                     cache: false,
                     data: data,
@@ -189,9 +196,14 @@ if(count($routes) > 0){
         </script>
         
         <script src="<?php echo URL;?>/view/plugins/lightslider/js/lightslider.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.0.slim.min.js"
-            integrity="sha384-7WBfQYubrFpye+dGHEeA3fHaTy/wpTFhxdjxqvK04e4orV3z+X4XC4qOX3qnkVC6" crossorigin="anonymous">
-        </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+        
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.7.2/dist/sweetalert2.all.min.js"></script>
     </div>
 </body>
