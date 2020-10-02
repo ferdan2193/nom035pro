@@ -7,19 +7,19 @@
     <div class="row">
         <div id="radioPoliticas" class="btn-group btn-group-lg flex-wrap btn-block" data-toggle="buttons">
             <div class="col-md-3">
-                <button class="btn btn-primary btn-block" type="button" name="btnQueson" id="option1" value="1" autocomplete="off"> ¿QUÉ SON?
+                <button class="btn btn-square btn-primary btn-block" type="button" name="btnQueson" id="option1" value="1" autocomplete="off"> ¿QUÉ SON?
                
             </div>
             <div class="col-md-3">
-                <button class="btn btn-info btn-block" type="button" name="btnCuales" id="option2" value="2" autocomplete="off"> ¿CUÁL ES SU FUNCIÓN?
+                <button class="btn btn-square btn-info btn-block" type="button" name="btnCuales" id="option2" value="2" autocomplete="off"> ¿CUÁL ES SU FUNCIÓN?
                
             </div>
             <div class="col-md-3">
-                <button class="btn btn-primary btn-block" type="button" name="btnCompromisos" id="option3" value="3" autocomplete="off"> COMPROMISOS
+                <button class="btn btn-square btn-primary btn-block" type="button" name="btnCompromisos" id="option3" value="3" autocomplete="off"> COMPROMISOS
                
             </div>
             <div class="col-md-3">
-                <button class="btn btn-info btn-block" type="radio" name="btnPrincipios" id="option4" autocomplete="off"> PRINCIPIOS
+                <button class="btn btn-square btn-info btn-block" type="radio" name="btnPrincipios" id="option4" autocomplete="off"> PRINCIPIOS
               
             </div>
         </div>
