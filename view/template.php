@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+        <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+
+        
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
     <link rel="stylesheet" href="<?php echo URL;?>view/css/template.css">
     <link rel="stylesheet" href="<?php echo URL;?>view/css/styles.css">
@@ -34,6 +37,9 @@
         href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700|Source+Sans+Pro|Yanone+Kaffeesatz&display=swap"
         rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+
 
 
 
@@ -58,10 +64,18 @@ if(isset($_GET["route"])){
 
 if(count($routes) > 0){
     if($routes[0] == "miempresa"){
+        ?>
+        <script src="<?php echo URL;?>/view/js/politicas.js"></script>
+        <script src="<?php echo URL;?>/view/js/acciones.js"></script>
+        <?php
         require_once "view/modules/bienvenida.php";
         require_once "view/modules/politicas.php";
         require_once "view/modules/medidas.php";
+        require_once "view/modules/entorno.php";
+        
+        require_once "view/modules/acciones.php";
         require_once "view/modules/traumas.php";
+        require_once "view/modules/buzon.php";
 
         //Aquí los includes de tus archivos
         }
@@ -85,7 +99,7 @@ if(count($routes) > 0){
         <?php
         require_once "view/modules/common/footer.php";
         ?>
-        <script src="<?php echo URL;?>/view/js/politicas.js"></script>
+      
 
         <script src="<?php echo URL;?>/view/plugins/jquery/jquery.js"></script>
         
