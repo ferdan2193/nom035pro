@@ -67,6 +67,7 @@ if(count($routes) > 0){
         ?>
         <script src="<?php echo URL;?>/view/js/politicas.js"></script>
         <script src="<?php echo URL;?>/view/js/acciones.js"></script>
+        <script src="<?php echo URL;?>/view/js/entorno.js"></script>
         <?php
         require_once "view/modules/bienvenida.php";
         require_once "view/modules/politicas.php";
