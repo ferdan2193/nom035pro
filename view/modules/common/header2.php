@@ -1,14 +1,6 @@
 <div class="container-fluid text-right" id="whatsapp-header">
-    <div class="row">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p> CONTACTO: 828 100 7533 <i class='pl-3 fa fa-phone'></i><i class='pl-3 fab fa-whatsapp'></i></p>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
+<div id="header">
 <div class="container" id="menu">
     <nav class="navbar navbar-light navbar-expand-md">
         <a href="<?php echo URL; ?>" class="navbar-brand mr-0"><img width="250px" ;
@@ -25,7 +17,7 @@
                     <a class="nav-link click" href="#beneficios">Beneficios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link click" href="<?php echo URL ."miempresa"; ?>">Mi empresa</a>
+                    <a class="nav-link click" href="<?php echo URL .'miempresa'; ?>">Mi empresa</a> 
                 </li>
                 <li class="nav-item">
                     <a class="nav-link click" href="#contacto">Contacto</a>
@@ -33,4 +25,5 @@
             </ul>
         </div>
     </nav>
+</div>
 </div>

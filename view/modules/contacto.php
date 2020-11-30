@@ -3,6 +3,7 @@
         <div class="col-md-12">
         <p class="text-center" style="font-size:30px; font-family: 'Source Sans Pro', sans-serif;">Contactanos</p>
         </div>
+    </div>
         
         <div class="col-md-8">
             <form>
@@ -14,5 +15,5 @@
                 <button type="submit" id="send">Enviar</button>
             </form>
         </div>
-    </div>
+
 </div>
